@@ -1,4 +1,4 @@
-# 🦊 Crypto Wallet Tracker with Streamlit & Etherscan API
+# 🦊 Ethereum Wallet Tracker with Streamlit & Etherscan API
 
 **Track, Analyze & Visualize Ethereum Wallets** in real-time. This project combines on-chain data inspection with modern data visualization and optional blockchain analytics.
 
@@ -31,7 +31,7 @@ It fetches real-time data via **public blockchain APIs** (like Etherscan or Cova
 | Category              | Tools & APIs                                         |
 |----------------------|------------------------------------------------------|
 | **Frontend**         | Streamlit                                            |
-| **Backend**          | Python 3.10+, FastAPI (future ready)                 |
+| **Backend**          | Python 3.10+                                         |
 | **Data APIs**        | Etherscan API, CoinGecko API                         |
 | **Visualization**    | Altair, Matplotlib                                   |
 | **NFT/IPFS Support** | IPFS Image Gateways                                  |
@@ -69,7 +69,7 @@ crypto-wallet-tracker/
 ├── data/
 │   └── wallets.json            # Bookmark storage (optional)
 │
-├── Dockerfile                  # For containerized deployments
+|__ output
 ├── streamlit\_app.py            # App entry point
 ├── requirements.txt            # Pip dependencies
 └── README.md                   # This file
